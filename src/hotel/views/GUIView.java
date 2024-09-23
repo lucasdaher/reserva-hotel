@@ -48,7 +48,7 @@ public class GUIView extends JFrame {
         ReservaController controller = new ReservaController();
         String roomNumber = txtRoomNumber.getText();
         String guestName = txtGuestName.getText();
-        boolean success = controller.makeReservation(roomNumber, guestName);
+        boolean success = controller.criarReserva(roomNumber, guestName);
         if (success) {
             lblStatus.setText("Reserva feita com sucesso!");
         } else {
