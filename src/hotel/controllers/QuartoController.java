@@ -5,7 +5,11 @@ import hotel.models.Quarto;
 import java.util.ArrayList;
 
 public class QuartoController {
-    private ArrayList<Quarto> quartosDisponiveis = new ArrayList<>();
+    private ArrayList<Quarto> quartosDisponiveis = new ArrayList<Quarto>();
+
+    public ArrayList<Quarto> getQuartosDisponiveis() {
+        return quartosDisponiveis;
+    }
 
     public void adicionarQuarto(Quarto quarto) {
         quartosDisponiveis.add(quarto);

@@ -58,6 +58,6 @@ public class Hospede {
 
     public boolean maiorDeIdade() {
         LocalDate hoje = LocalDate.now();
-        return Period.between(dataNascimento, hoje).getYears() > 18;
+        return Period.between(dataNascimento, hoje).getYears() >= 18;
     }
 }
