@@ -12,20 +12,26 @@ public class QuartoController {
     }
 
     public void cadastrarQuartos(QuartoController quartoController) {
-        quartoController.adicionarQuarto(new Quarto(101, "Standard", 250.0));
-        quartoController.adicionarQuarto(new Quarto(102, "Standard", 250.0));
-        quartoController.adicionarQuarto(new Quarto(103, "Luxury", 150.0));
-        quartoController.adicionarQuarto(new Quarto(104, "Luxury", 150.0));
+        quartoController.adicionarQuarto(new Quarto(101, "Luxury", 250.0));
+        quartoController.adicionarQuarto(new Quarto(102, "Luxury", 250.0));
+        quartoController.adicionarQuarto(new Quarto(103, "Deluxe", 150.0));
+        quartoController.adicionarQuarto(new Quarto(104, "Deluxe", 150.0));
+        quartoController.adicionarQuarto(new Quarto(105, "Standard", 50.0));
+        quartoController.adicionarQuarto(new Quarto(106, "Standard", 50.0));
 
-        quartoController.adicionarQuarto(new Quarto(201, "Standard", 250.0));
-        quartoController.adicionarQuarto(new Quarto(202, "Standard", 250.0));
-        quartoController.adicionarQuarto(new Quarto(203, "Luxury", 150.0));
-        quartoController.adicionarQuarto(new Quarto(204, "Luxury", 150.0));
+        quartoController.adicionarQuarto(new Quarto(201, "Luxury", 250.0));
+        quartoController.adicionarQuarto(new Quarto(202, "Luxury", 250.0));
+        quartoController.adicionarQuarto(new Quarto(203, "Deluxe", 150.0));
+        quartoController.adicionarQuarto(new Quarto(204, "Deluxe", 150.0));
+        quartoController.adicionarQuarto(new Quarto(205, "Standard", 50.0));
+        quartoController.adicionarQuarto(new Quarto(206, "Standard", 50.0));
 
-        quartoController.adicionarQuarto(new Quarto(301, "Standard", 250.0));
-        quartoController.adicionarQuarto(new Quarto(302, "Standard", 250.0));
-        quartoController.adicionarQuarto(new Quarto(303, "Luxury", 150.0));
-        quartoController.adicionarQuarto(new Quarto(304, "Luxury", 150.0));
+        quartoController.adicionarQuarto(new Quarto(301, "Luxury", 250.0));
+        quartoController.adicionarQuarto(new Quarto(302, "Luxury", 250.0));
+        quartoController.adicionarQuarto(new Quarto(303, "Deluxe", 150.0));
+        quartoController.adicionarQuarto(new Quarto(304, "Deluxe", 150.0));
+        quartoController.adicionarQuarto(new Quarto(305, "Standard", 50.0));
+        quartoController.adicionarQuarto(new Quarto(306, "Standard", 50.0));
     }
 
     public void adicionarQuarto(Quarto quarto) {
